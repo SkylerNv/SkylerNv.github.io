@@ -6,6 +6,8 @@ var qrcode = new QRCode(document.getElementById("qr-code"), {
     correctLevel : QRCode.CorrectLevel.H
 });
 
+qrcode.makeCode('skylernv.github.io/qr/about');
+
 function makeCode(){
     let textInput = document.getElementById("text-input").value;
     if(!textInput) return;
