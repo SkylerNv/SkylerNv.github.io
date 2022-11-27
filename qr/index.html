@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>QR code generator</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../fonts/roboto.css">
     <script src="js/qrcode.min.js"></script> <!--Downloaded from  https://davidshimjs.github.io/qrcodejs/-->
     <link rel="icon" type="image/x-icon" href="./favicon.png">
 </head>
 <body>
-    <h1>QR-code generator</h1>
+    <h1>QR code generator</h1>
     <div id="info-div">
         <span><a href="../">Home</a></span>
         <span><a href="./about/">About</a></span>
@@ -15,7 +17,7 @@
     </div>
     <div id="main-container">
         <div id="input-div">
-            <input id="text-input" type="text" placeholder="Input text...">
+            <input id="text-input" type="text" placeholder="Enter text...">
             <button id="generate-button" onclick="makeCode()">Generate QR</button>
         </div>
         <div id="qr-code"></div>
