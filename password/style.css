@@ -54,6 +54,21 @@ body {
     width: 2.5em;
 }
 
+#use-special-input {
+    -ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FF */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+    transform: scale(1.5);
+    margin-right: 1em;
+    position: relative;
+    top: -0.25em;
+}
+
+#use-special-input:hover {
+    cursor: pointer;
+}
+
 #qr-container {
     text-align: center;
 }
