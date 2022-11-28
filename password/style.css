@@ -1,0 +1,105 @@
+#main-container {
+    text-align: center;
+    width: 30em;
+    border: 1px solid #E0E0E0;
+    margin: 2em auto;
+    border-radius: 0.5em;
+    position: relative;
+}
+
+#main-container div {
+    margin: 1em;
+}
+
+#success-copy-message {
+    display: none;
+    user-select: none;
+    position: absolute;
+    background: #388E3C;
+    font-size: 1.25em;
+    padding: 0.75em 2em;
+    border-radius: 0.5em;
+    width: 10em;
+    left: 4em;
+    top: -0.5em;
+}
+
+#password-input {
+    background: #757575;
+    color: #F5F5F5;
+    font-size: 1.25em;
+    padding: 0.5em 0.25em;
+    border: none;
+    border-radius: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#parameters-div {
+    text-align: left;
+    font-size: 1.25em;
+}
+
+#password-length-input {
+    background: #757575;
+    color: #F5F5F5;
+    font-size: 1.25em;
+    padding: 0.25em;
+    border: none;
+    border-radius: 0.5em;
+    width: 2.5em;
+}
+
+#qr-container {
+    text-align: center;
+}
+
+
+#qr-toggle {
+    color: #536DFE;
+}
+
+#qr-toggle:hover {
+    color: #8C9EFF;
+    cursor: pointer;
+}
+
+#qr-code {
+    display: none;
+    width: 128px;
+    height: 128px;
+    border: 1px solid #E0E0E0;
+    margin: 0.5em auto !important;
+}
+
+@media only screen and (max-width: 500px){
+    #main-container {
+        width: 100%;
+        padding: 0.15em;
+    }
+    #main-container div {
+        margin: 0.5em 0.25em;
+    }
+    #success-copy-message {
+        top: 0;
+        left: 2.5em;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    #password-input {
+        width: 75%;
+        margin-right: 0.25em;
+    }
+}
+
+@media only screen and (max-width: 380px){
+    #password-input {
+        width: 60%;
+    }
+
+    #success-copy-message {
+        top: 0;
+        left: 1.5em;
+    }
+}

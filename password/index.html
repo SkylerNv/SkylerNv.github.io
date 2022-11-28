@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Password generator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../css/theme.css">
+    <link rel="stylesheet" href="../fonts/roboto.css">
+    <!--<script src="js/qrcode.min.js"></script> <!--Downloaded from  https://davidshimjs.github.io/qrcodejs/-->
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
+    <script src="../qr/js/qrcode.min.js"></script>
+</head>
+<body>
+    <h1>Password generator</h1>
+    <div id="info-div">
+        <span><a href="../">Home</a></span>
+        <span><a href="https://github.com/SkylerNv/SkylerNv.github.io">GitHub</a></span>
+    </div>
+    <div id="main-container">
+        <div id="success-copy-message">Successfully copied!</div>
+        <div id="input-div">
+            <input id="password-input" type="text" readonly>
+            <button onclick="copyPassword()">Copy</button>
+        </div>
+        <button id="generate-button" onclick="generatePassword()">Generate password</button>
+        <div id="qr-container">
+            <div id="qr-code"></div>
+            <span onclick="toggleQrCode()" id="qr-toggle">Show QR code</span>
+        </div>
+        <div id="parameters-div">
+            <div>
+                <span>Password length:</span>&emsp;<input type="number" min="8" max="64" id="password-length-input" value="16">
+            </div>
+            <div>
+                <input type="checkbox" id="use-special-input" checked="true"><span>Use special characters</span>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>

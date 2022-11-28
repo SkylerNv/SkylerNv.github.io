@@ -1,7 +1,9 @@
 # [SkylerNv.github.io](https://skylernv.github.io)
 
-## [QR code generator](https://skylernv.github.io/qr/)
-Generate QR codes. Based on https://davidshimjs.github.io/qrcodejs/
+## Websites
+* ### [QR code generator](https://skylernv.github.io/qr)
+* ### [Password generator]((https://skylernv.github.io/password))
 
 ## Sources
 * Fonts downloaded from: https://gwfh.mranftl.com/fonts
+* https://davidshimjs.github.io/qrcodejs/
