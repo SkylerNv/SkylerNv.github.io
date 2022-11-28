@@ -1,3 +1,7 @@
+body {
+    margin-left: 0; /* Mobile version wasn't coverong all the way to the left */
+}
+
 #main-container {
     text-align: center;
     width: 30em;
@@ -101,5 +105,9 @@
     #success-copy-message {
         top: 0;
         left: 1.5em;
+    }
+
+    h1 {
+        font-size: x-large;
     }
 }
