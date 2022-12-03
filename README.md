@@ -6,4 +6,4 @@
 
 ## Sources
 * Fonts downloaded from: https://gwfh.mranftl.com/fonts
-* https://davidshimjs.github.io/qrcodejs/
+* QR code generator: https://davidshimjs.github.io/qrcodejs/
