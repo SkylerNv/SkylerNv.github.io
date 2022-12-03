@@ -2,7 +2,7 @@
 
 ## Websites
 * ### [QR code generator](https://skylernv.github.io/qr)
-* ### [Password generator]((https://skylernv.github.io/password))
+* ### [Password generator](https://skylernv.github.io/password)
 
 ## Sources
 * Fonts downloaded from: https://gwfh.mranftl.com/fonts
